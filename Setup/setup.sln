@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "sawda-1-0-setup", "Setup.vdproj", "{33B40EE3-AA94-4597-850E-1A14B8D5E7F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		dbg|Default = dbg|Default
+		opt|Default = opt|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33B40EE3-AA94-4597-850E-1A14B8D5E7F9}.dbg|Default.ActiveCfg = dbg
+		{33B40EE3-AA94-4597-850E-1A14B8D5E7F9}.dbg|Default.Build.0 = dbg
+		{33B40EE3-AA94-4597-850E-1A14B8D5E7F9}.opt|Default.ActiveCfg = opt
+		{33B40EE3-AA94-4597-850E-1A14B8D5E7F9}.opt|Default.Build.0 = opt
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
