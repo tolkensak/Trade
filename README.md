@@ -1,4 +1,4 @@
-# Trade 2.0
+# Trade
 
 An application for small shops. (Orginal name is Sawda)
 
