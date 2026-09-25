@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dialog Files">
+      <UniqueIdentifier>{b52e9eb0-e531-410e-a2f2-5c61855e2358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View Files">
+      <UniqueIdentifier>{5a7af06c-30ff-46b3-ad32-49b7f8ff6fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Files">
+      <UniqueIdentifier>{300187d8-4acb-4602-bccb-ee65f36d2a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Files">
+      <UniqueIdentifier>{1e37fac3-fcde-4d2a-85dc-6d1a1e6bafb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{203bd50f-2590-4ccd-b15a-571fa8d0e7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AdvancedPermitDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AdvancedPermitDlgGlob.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AdvancedPermitDlgSpec.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BuyDebtDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BuyDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BuyDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BuyDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BuyReturnDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChooseWareDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClientDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClientDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClientDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConnectionDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContactDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContactDlgGlob.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContactDlgSpec.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DealDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DebtDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Dialog.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EasyPermitDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EasyPermitDlgGlob.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EasyPermitDlgSpec.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GridDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IndentDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IndentDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IndentDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ManipDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyPasswordDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PasswordDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PasswordDlgGlob.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PasswordDlgSpec.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PermitDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PriceDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PriceDlgGlob.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PriceDlgSpec.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReportDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReportDlgGlob.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReportDlgSpec.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReturnDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RunAsDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SellDebtDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SellDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SellDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SellDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelReturnDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TableDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitCatDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitCatDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitCatDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareCatDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareCatDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareCatDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareDlg.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareDlgEdit.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareDlgNew.cpp">
+      <Filter>Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BuyView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClientView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContactView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DealView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GridView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IndentView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReportView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SellView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TableView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitCatView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareCatView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareView.cpp">
+      <Filter>View Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChooseWareEdit.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Column.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Connection.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Convertion.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FormatStr.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Indent.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Misc.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Permit.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReloadMgr.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Report.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReportForm.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReportParam.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ToolBar.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ValidStr.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareEdit.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WareList.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App.cpp">
+      <Filter>Application Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Doc.cpp">
+      <Filter>Application Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainWnd.cpp">
+      <Filter>Application Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>Application Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AdvancedPermitDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AdvancedPermitDlgSpec.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BuyDebtDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BuyDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BuyDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BuyDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BuyReturnDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChooseWareDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClientDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClientDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClientDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConnectionDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ContactDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ContactDlgSpec.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DealDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DebtDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Dialog.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EasyPermitDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EasyPermitDlgSpec.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FirmDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FirmDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FirmDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GridDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IndentDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IndentDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IndentDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LoginDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ManipDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyPasswordDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PasswordDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PasswordDlgSpec.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PermitDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PriceDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PriceDlgSpec.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReportDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReportDlgGlob.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReportDlgSpec.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReturnDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SellDebtDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SellDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SellDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SellDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SellReturnDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TableDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitCatDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitCatDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitCatDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareCatDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareCatDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareCatDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareDlg.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareDlgNew.h">
+      <Filter>Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BuyView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClientView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ContactView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DealView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FirmView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GridView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IndentView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReportView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SellView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TableView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitCatView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UnitView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareCatView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareView.h">
+      <Filter>View Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChooseWareEdit.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Column.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Connection.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Convertion.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FormatStr.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Global.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Indent.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Misc.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Permit.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReloadMgr.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Report.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReportForm.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReportParam.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ToolBar.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ValidStr.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareEdit.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WareList.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App.h">
+      <Filter>Application Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Doc.h">
+      <Filter>Application Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainWnd.h">
+      <Filter>Application Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>Application Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\targetver.h">
+      <Filter>Application Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\app.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\res\imagelist\hot\about.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\about.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\about.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\app.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\buy.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\buy.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\buy.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\choose.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\client.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\client.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\client.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\contact.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\contact.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\contact.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\delete.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\delete.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\delete.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\edit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\edit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\edit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\fill_start.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\fill_start.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\fill_start.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\fill_stop.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\fill_stop.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\fill_stop.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\firm.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\firm.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\firm.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\indent.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\indent.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\indent.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\new.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\new.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\new.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\new.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="res\new.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\password.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\password.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\password.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\permit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\permit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\permit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\price.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\price.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\price.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\reload.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\reload.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\reload.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\report.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\report.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\report.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="res\search.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\search.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\sell.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\sell.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\sell.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\submit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\submit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\submit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\unit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\unit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\unit.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\user.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\user.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\user.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\view.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\view.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\view.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\reg\ware.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\hot\ware.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="..\src\res\imagelist\dis\ware.ico">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\AdvancedPermitDlgGlob.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ContactDlgGlob.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\EasyPermitDlgGlob.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\PasswordDlgGlob.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\PriceDlgGlob.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\RunAsDlg.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\UserDlgEdit.h">
+      <Filter>Dialog Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

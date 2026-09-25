@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="dbg|Win32">
+      <Configuration>dbg</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="opt|Win32">
+      <Configuration>opt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <ProjectName>sawda</ProjectName>
+    <ProjectGuid>{623AA946-D199-4D27-8885-46F259E6BE20}</ProjectGuid>
+    <RootNamespace>sawda</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='opt|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='opt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>18.0.12106.202</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">
+    <OutDir>$(SolutionDir)\output\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">
+    <OutDir>$(SolutionDir)\output\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(toldir)\11\inc;$(mysql)\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <Version>1.0.0.1</Version>
+      <AdditionalLibraryDirectories>$(toldir)\11\90\lib;$(mysql)\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(toldir)\11\inc;$(mysql)\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <Version>1.0.0.1</Version>
+      <AdditionalLibraryDirectories>$(toldir)\11\90\lib;$(mysql)\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AdvancedPermitDlg.cpp" />
+    <ClCompile Include="..\src\AdvancedPermitDlgGlob.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\AdvancedPermitDlgSpec.cpp" />
+    <ClCompile Include="..\src\App.cpp" />
+    <ClCompile Include="..\src\BuyDebtDlg.cpp" />
+    <ClCompile Include="..\src\BuyDlg.cpp" />
+    <ClCompile Include="..\src\BuyDlgEdit.cpp" />
+    <ClCompile Include="..\src\BuyDlgNew.cpp" />
+    <ClCompile Include="..\src\BuyReturnDlg.cpp" />
+    <ClCompile Include="..\src\BuyView.cpp" />
+    <ClCompile Include="..\src\ChooseWareDlg.cpp" />
+    <ClCompile Include="..\src\ChooseWareEdit.cpp" />
+    <ClCompile Include="..\src\ClientDlg.cpp" />
+    <ClCompile Include="..\src\ClientDlgEdit.cpp" />
+    <ClCompile Include="..\src\ClientDlgNew.cpp" />
+    <ClCompile Include="..\src\ClientView.cpp" />
+    <ClCompile Include="..\src\Column.cpp" />
+    <ClCompile Include="..\src\Connection.cpp" />
+    <ClCompile Include="..\src\ConnectionDlg.cpp" />
+    <ClCompile Include="..\src\ContactDlg.cpp" />
+    <ClCompile Include="..\src\ContactDlgGlob.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\ContactDlgSpec.cpp" />
+    <ClCompile Include="..\src\ContactView.cpp" />
+    <ClCompile Include="..\src\Convertion.cpp" />
+    <ClCompile Include="..\src\DealDlg.cpp" />
+    <ClCompile Include="..\src\DealView.cpp" />
+    <ClCompile Include="..\src\DebtDlg.cpp" />
+    <ClCompile Include="..\src\Dialog.cpp" />
+    <ClCompile Include="..\src\Doc.cpp" />
+    <ClCompile Include="..\src\EasyPermitDlg.cpp" />
+    <ClCompile Include="..\src\EasyPermitDlgGlob.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\EasyPermitDlgSpec.cpp" />
+    <ClCompile Include="..\src\FirmDlg.cpp" />
+    <ClCompile Include="..\src\FirmDlgEdit.cpp" />
+    <ClCompile Include="..\src\FirmDlgNew.cpp" />
+    <ClCompile Include="..\src\FirmView.cpp" />
+    <ClCompile Include="..\src\FormatStr.cpp" />
+    <ClCompile Include="..\src\GridDlg.cpp" />
+    <ClCompile Include="..\src\GridView.cpp" />
+    <ClCompile Include="..\src\Indent.cpp" />
+    <ClCompile Include="..\src\IndentDlg.cpp" />
+    <ClCompile Include="..\src\IndentDlgEdit.cpp" />
+    <ClCompile Include="..\src\IndentDlgNew.cpp" />
+    <ClCompile Include="..\src\IndentView.cpp" />
+    <ClCompile Include="..\src\LoginDlg.cpp" />
+    <ClCompile Include="..\src\MainView.cpp" />
+    <ClCompile Include="..\src\MainWnd.cpp" />
+    <ClCompile Include="..\src\ManipDlg.cpp" />
+    <ClCompile Include="..\src\Misc.cpp" />
+    <ClCompile Include="..\src\MyPasswordDlg.cpp" />
+    <ClCompile Include="..\src\PasswordDlg.cpp" />
+    <ClCompile Include="..\src\PasswordDlgGlob.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\PasswordDlgSpec.cpp" />
+    <ClCompile Include="..\src\Permit.cpp" />
+    <ClCompile Include="..\src\PermitDlg.cpp" />
+    <ClCompile Include="..\src\PriceDlg.cpp" />
+    <ClCompile Include="..\src\PriceDlgGlob.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\PriceDlgSpec.cpp" />
+    <ClCompile Include="..\src\ReloadMgr.cpp" />
+    <ClCompile Include="..\src\Report.cpp" />
+    <ClCompile Include="..\src\ReportDlg.cpp" />
+    <ClCompile Include="..\src\ReportDlgGlob.cpp" />
+    <ClCompile Include="..\src\ReportDlgSpec.cpp" />
+    <ClCompile Include="..\src\ReportForm.cpp" />
+    <ClCompile Include="..\src\ReportParam.cpp" />
+    <ClCompile Include="..\src\ReportView.cpp" />
+    <ClCompile Include="..\src\ReturnDlg.cpp" />
+    <ClCompile Include="..\src\RunAsDlg.cpp" />
+    <ClCompile Include="..\src\SellDebtDlg.cpp" />
+    <ClCompile Include="..\src\SellDlg.cpp" />
+    <ClCompile Include="..\src\SellDlgEdit.cpp" />
+    <ClCompile Include="..\src\SellDlgNew.cpp" />
+    <ClCompile Include="..\src\SellView.cpp" />
+    <ClCompile Include="..\src\SelReturnDlg.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\TableDlg.cpp" />
+    <ClCompile Include="..\src\TableView.cpp" />
+    <ClCompile Include="..\src\ToolBar.cpp" />
+    <ClCompile Include="..\src\UnitCatDlg.cpp" />
+    <ClCompile Include="..\src\UnitCatDlgEdit.cpp" />
+    <ClCompile Include="..\src\UnitCatDlgNew.cpp" />
+    <ClCompile Include="..\src\UnitCatView.cpp" />
+    <ClCompile Include="..\src\UnitDlg.cpp" />
+    <ClCompile Include="..\src\UnitDlgEdit.cpp" />
+    <ClCompile Include="..\src\UnitDlgNew.cpp" />
+    <ClCompile Include="..\src\UnitView.cpp" />
+    <ClCompile Include="..\src\User.cpp" />
+    <ClCompile Include="..\src\UserDlg.cpp" />
+    <ClCompile Include="..\src\UserDlgEdit.cpp" />
+    <ClCompile Include="..\src\UserDlgNew.cpp" />
+    <ClCompile Include="..\src\UserView.cpp" />
+    <ClCompile Include="..\src\ValidStr.cpp" />
+    <ClCompile Include="..\src\WareCatDlg.cpp" />
+    <ClCompile Include="..\src\WareCatDlgEdit.cpp" />
+    <ClCompile Include="..\src\WareCatDlgNew.cpp" />
+    <ClCompile Include="..\src\WareCatView.cpp" />
+    <ClCompile Include="..\src\WareDlg.cpp" />
+    <ClCompile Include="..\src\WareDlgEdit.cpp" />
+    <ClCompile Include="..\src\WareDlgNew.cpp" />
+    <ClCompile Include="..\src\WareEdit.cpp" />
+    <ClCompile Include="..\src\WareList.cpp" />
+    <ClCompile Include="..\src\WareView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AdvancedPermitDlg.h" />
+    <CustomBuild Include="..\src\AdvancedPermitDlgGlob.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="..\src\AdvancedPermitDlgSpec.h" />
+    <ClInclude Include="..\src\App.h" />
+    <ClInclude Include="..\src\BuyDebtDlg.h" />
+    <ClInclude Include="..\src\BuyDlg.h" />
+    <ClInclude Include="..\src\BuyDlgEdit.h" />
+    <ClInclude Include="..\src\BuyDlgNew.h" />
+    <ClInclude Include="..\src\BuyReturnDlg.h" />
+    <ClInclude Include="..\src\BuyView.h" />
+    <ClInclude Include="..\src\ChooseWareDlg.h" />
+    <ClInclude Include="..\src\ChooseWareEdit.h" />
+    <ClInclude Include="..\src\ClientDlg.h" />
+    <ClInclude Include="..\src\ClientDlgEdit.h" />
+    <ClInclude Include="..\src\ClientDlgNew.h" />
+    <ClInclude Include="..\src\ClientView.h" />
+    <ClInclude Include="..\src\Column.h" />
+    <ClInclude Include="..\src\Connection.h" />
+    <ClInclude Include="..\src\ConnectionDlg.h" />
+    <ClInclude Include="..\src\ContactDlg.h" />
+    <CustomBuild Include="..\src\ContactDlgGlob.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="..\src\ContactDlgSpec.h" />
+    <ClInclude Include="..\src\ContactView.h" />
+    <ClInclude Include="..\src\Convertion.h" />
+    <ClInclude Include="..\src\DealDlg.h" />
+    <ClInclude Include="..\src\DealView.h" />
+    <ClInclude Include="..\src\DebtDlg.h" />
+    <ClInclude Include="..\src\Dialog.h" />
+    <ClInclude Include="..\src\Doc.h" />
+    <ClInclude Include="..\src\EasyPermitDlg.h" />
+    <CustomBuild Include="..\src\EasyPermitDlgGlob.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="..\src\EasyPermitDlgSpec.h" />
+    <ClInclude Include="..\src\FirmDlg.h" />
+    <ClInclude Include="..\src\FirmDlgEdit.h" />
+    <ClInclude Include="..\src\FirmDlgNew.h" />
+    <ClInclude Include="..\src\FirmView.h" />
+    <ClInclude Include="..\src\FormatStr.h" />
+    <ClInclude Include="..\src\Global.h" />
+    <ClInclude Include="..\src\GridDlg.h" />
+    <ClInclude Include="..\src\GridView.h" />
+    <ClInclude Include="..\src\Indent.h" />
+    <ClInclude Include="..\src\IndentDlg.h" />
+    <ClInclude Include="..\src\IndentDlgEdit.h" />
+    <ClInclude Include="..\src\IndentDlgNew.h" />
+    <ClInclude Include="..\src\IndentView.h" />
+    <ClInclude Include="..\src\LoginDlg.h" />
+    <ClInclude Include="..\src\MainView.h" />
+    <ClInclude Include="..\src\MainWnd.h" />
+    <ClInclude Include="..\src\ManipDlg.h" />
+    <ClInclude Include="..\src\Misc.h" />
+    <ClInclude Include="..\src\MyPasswordDlg.h" />
+    <ClInclude Include="..\src\PasswordDlg.h" />
+    <CustomBuild Include="..\src\PasswordDlgGlob.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="..\src\PasswordDlgSpec.h" />
+    <ClInclude Include="..\src\Permit.h" />
+    <ClInclude Include="..\src\PermitDlg.h" />
+    <ClInclude Include="..\src\PriceDlg.h" />
+    <CustomBuild Include="..\src\PriceDlgGlob.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='opt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="..\src\PriceDlgSpec.h" />
+    <ClInclude Include="..\src\ReloadMgr.h" />
+    <ClInclude Include="..\src\Report.h" />
+    <ClInclude Include="..\src\ReportDlg.h" />
+    <ClInclude Include="..\src\ReportDlgGlob.h" />
+    <ClInclude Include="..\src\ReportDlgSpec.h" />
+    <ClInclude Include="..\src\ReportForm.h" />
+    <ClInclude Include="..\src\ReportParam.h" />
+    <ClInclude Include="..\src\ReportView.h" />
+    <ClInclude Include="..\src\resource.h" />
+    <ClInclude Include="..\src\ReturnDlg.h" />
+    <CustomBuild Include="..\src\RunAsDlg.h" />
+    <ClInclude Include="..\src\SellDebtDlg.h" />
+    <ClInclude Include="..\src\SellDlg.h" />
+    <ClInclude Include="..\src\SellDlgEdit.h" />
+    <ClInclude Include="..\src\SellDlgNew.h" />
+    <ClInclude Include="..\src\SellReturnDlg.h" />
+    <ClInclude Include="..\src\SellView.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\TableDlg.h" />
+    <ClInclude Include="..\src\TableView.h" />
+    <ClInclude Include="..\src\targetver.h" />
+    <ClInclude Include="..\src\ToolBar.h" />
+    <ClInclude Include="..\src\UnitCatDlg.h" />
+    <ClInclude Include="..\src\UnitCatDlgEdit.h" />
+    <ClInclude Include="..\src\UnitCatDlgNew.h" />
+    <ClInclude Include="..\src\UnitCatView.h" />
+    <ClInclude Include="..\src\UnitDlg.h" />
+    <ClInclude Include="..\src\UnitDlgEdit.h" />
+    <ClInclude Include="..\src\UnitDlgNew.h" />
+    <ClInclude Include="..\src\UnitView.h" />
+    <ClInclude Include="..\src\User.h" />
+    <ClInclude Include="..\src\UserDlg.h" />
+    <CustomBuild Include="..\src\UserDlgEdit.h" />
+    <ClInclude Include="..\src\UserDlgNew.h" />
+    <ClInclude Include="..\src\UserView.h" />
+    <ClInclude Include="..\src\ValidStr.h" />
+    <ClInclude Include="..\src\WareCatDlg.h" />
+    <ClInclude Include="..\src\WareCatDlgEdit.h" />
+    <ClInclude Include="..\src\WareCatDlgNew.h" />
+    <ClInclude Include="..\src\WareCatView.h" />
+    <ClInclude Include="..\src\WareDlg.h" />
+    <ClInclude Include="..\src\WareDlgEdit.h" />
+    <ClInclude Include="..\src\WareDlgNew.h" />
+    <ClInclude Include="..\src\WareEdit.h" />
+    <ClInclude Include="..\src\WareList.h" />
+    <ClInclude Include="..\src\WareView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\app.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\res\app.ico" />
+    <Image Include="..\src\res\choose.ico" />
+    <Image Include="..\src\res\imagelist\dis\about.ico" />
+    <Image Include="..\src\res\imagelist\dis\buy.ico" />
+    <Image Include="..\src\res\imagelist\dis\client.ico" />
+    <Image Include="..\src\res\imagelist\dis\contact.ico" />
+    <Image Include="..\src\res\imagelist\dis\delete.ico" />
+    <Image Include="..\src\res\imagelist\dis\edit.ico" />
+    <Image Include="..\src\res\imagelist\dis\fill_start.ico" />
+    <Image Include="..\src\res\imagelist\dis\fill_stop.ico" />
+    <Image Include="..\src\res\imagelist\dis\firm.ico" />
+    <Image Include="..\src\res\imagelist\dis\indent.ico" />
+    <Image Include="..\src\res\imagelist\dis\new.ico" />
+    <Image Include="..\src\res\imagelist\dis\password.ico" />
+    <Image Include="..\src\res\imagelist\dis\permit.ico" />
+    <Image Include="..\src\res\imagelist\dis\price.ico" />
+    <Image Include="..\src\res\imagelist\dis\reload.ico" />
+    <Image Include="..\src\res\imagelist\dis\report.ico" />
+    <Image Include="..\src\res\imagelist\dis\sell.ico" />
+    <Image Include="..\src\res\imagelist\dis\submit.ico" />
+    <Image Include="..\src\res\imagelist\dis\unit.ico" />
+    <Image Include="..\src\res\imagelist\dis\user.ico" />
+    <Image Include="..\src\res\imagelist\dis\view.ico" />
+    <Image Include="..\src\res\imagelist\dis\ware.ico" />
+    <Image Include="..\src\res\imagelist\hot\about.ico" />
+    <Image Include="..\src\res\imagelist\hot\buy.ico" />
+    <Image Include="..\src\res\imagelist\hot\client.ico" />
+    <Image Include="..\src\res\imagelist\hot\contact.ico" />
+    <Image Include="..\src\res\imagelist\hot\delete.ico" />
+    <Image Include="..\src\res\imagelist\hot\edit.ico" />
+    <Image Include="..\src\res\imagelist\hot\fill_start.ico" />
+    <Image Include="..\src\res\imagelist\hot\fill_stop.ico" />
+    <Image Include="..\src\res\imagelist\hot\firm.ico" />
+    <Image Include="..\src\res\imagelist\hot\indent.ico" />
+    <Image Include="..\src\res\imagelist\hot\new.ico" />
+    <Image Include="..\src\res\imagelist\hot\password.ico" />
+    <Image Include="..\src\res\imagelist\hot\permit.ico" />
+    <Image Include="..\src\res\imagelist\hot\price.ico" />
+    <Image Include="..\src\res\imagelist\hot\reload.ico" />
+    <Image Include="..\src\res\imagelist\hot\report.ico" />
+    <Image Include="..\src\res\imagelist\hot\sell.ico" />
+    <Image Include="..\src\res\imagelist\hot\submit.ico" />
+    <Image Include="..\src\res\imagelist\hot\unit.ico" />
+    <Image Include="..\src\res\imagelist\hot\user.ico" />
+    <Image Include="..\src\res\imagelist\hot\view.ico" />
+    <Image Include="..\src\res\imagelist\hot\ware.ico" />
+    <Image Include="..\src\res\imagelist\reg\about.ico" />
+    <Image Include="..\src\res\imagelist\reg\buy.ico" />
+    <Image Include="..\src\res\imagelist\reg\client.ico" />
+    <Image Include="..\src\res\imagelist\reg\contact.ico" />
+    <Image Include="..\src\res\imagelist\reg\delete.ico" />
+    <Image Include="..\src\res\imagelist\reg\edit.ico" />
+    <Image Include="..\src\res\imagelist\reg\fill_start.ico" />
+    <Image Include="..\src\res\imagelist\reg\fill_stop.ico" />
+    <Image Include="..\src\res\imagelist\reg\firm.ico" />
+    <Image Include="..\src\res\imagelist\reg\indent.ico" />
+    <Image Include="..\src\res\imagelist\reg\new.ico" />
+    <Image Include="..\src\res\imagelist\reg\password.ico" />
+    <Image Include="..\src\res\imagelist\reg\permit.ico" />
+    <Image Include="..\src\res\imagelist\reg\price.ico" />
+    <Image Include="..\src\res\imagelist\reg\reload.ico" />
+    <Image Include="..\src\res\imagelist\reg\report.ico" />
+    <Image Include="..\src\res\imagelist\reg\sell.ico" />
+    <Image Include="..\src\res\imagelist\reg\submit.ico" />
+    <Image Include="..\src\res\imagelist\reg\unit.ico" />
+    <Image Include="..\src\res\imagelist\reg\user.ico" />
+    <Image Include="..\src\res\imagelist\reg\view.ico" />
+    <Image Include="..\src\res\imagelist\reg\ware.ico" />
+    <Image Include="..\src\res\new.ico" />
+    <Image Include="..\src\res\search.ico" />
+    <Image Include="res\new.ico" />
+    <Image Include="res\search.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="..\src\app.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

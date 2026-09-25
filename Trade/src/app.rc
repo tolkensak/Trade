@@ -1,0 +1,1535 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""app.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_WARE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Price...\tCtrl+R",           ID_DATA_PRICE
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_WARE_CAT MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_UNIT MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_UNIT_CAT MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_BUY MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Submit\tCtrl+T",             ID_DATA_SUBMIT
+        MENUITEM SEPARATOR
+        MENUITEM "Buy De&bts...",               ID_DATA_BUY_DEBT
+        MENUITEM "Buy &Return...",              ID_DATA_BUY_RETURN
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_FIRM MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Contact Info...",            ID_DATA_CONTACT
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_CLIENT MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Contact Info...",            ID_DATA_CONTACT
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_SELL MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Stop &Fill\tCtrl+Q",          ID_DATA_STOP_FILL
+        MENUITEM "&View\tCtrl+W",               ID_DATA_VIEW
+        MENUITEM "&Submit\tCtrl+T",             ID_DATA_SUBMIT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xport...",                  ID_DATA_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "Sell De&bts...",              ID_DATA_SELL_DEBT
+        MENUITEM "Sell &Return...",             ID_DATA_SELL_RETURN
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_INDENT MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Fill\tCtrl+F",               ID_DATA_FILL
+        MENUITEM "&View\tCtrl+W",               ID_DATA_VIEW
+        MENUITEM "&Submit\tCtrl+T",             ID_DATA_SUBMIT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xport...",                  ID_DATA_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_REPORT MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&View\tCtrl+W",               ID_DATA_VIEW
+        MENUITEM "E&xport...",                  ID_DATA_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+IDR_USER MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Data"
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             ID_DATA_NEW
+        MENUITEM "&Edit...\tCtrl+E",            ID_DATA_EDIT
+        MENUITEM "&Delete\tCtrl+D",             ID_DATA_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Contact Info...",            ID_DATA_CONTACT
+        MENUITEM SEPARATOR
+        MENUITEM "Pass&word...",                ID_DATA_PASSWORD
+        MENUITEM "&Permit...",                  ID_DATA_PERMIT
+        MENUITEM SEPARATOR
+        MENUITEM "&My Password...",             ID_DATA_MY_PASSWORD
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Reload\tF5",                 ID_VIEW_RELOAD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Sawda...",             ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 201, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Sawda"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    ICON            IDR_MAIN,IDC_STATIC,12,12,20,20
+    LTEXT           "Sawda 1.0",IDC_STATIC,44,12,32,8,SS_NOPREFIX
+    LTEXT           "© 2012.  By Tolken Ahmetolla.",IDC_STATIC,44,28,103,8
+    DEFPUSHBUTTON   "OK",IDOK,137,48,50,14
+END
+
+IDD_LOGIN DIALOGEX 0, 0, 171, 80
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sawda - Login"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Login",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_LOGIN,51,12,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Password",IDC_STATIC,12,32,34,8
+    EDITTEXT        IDC_EDT_PASSWORD,51,30,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,51,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,54,50,14
+END
+
+IDD_RUN_AS DIALOGEX 0, 0, 171, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "No Permit"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "No permit for this. Please, try other user.",IDC_STATIC,12,12,136,8
+    LTEXT           "&Login",IDC_STATIC,12,34,19,8
+    EDITTEXT        IDC_EDT_LOGIN,51,32,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Password",IDC_STATIC,12,52,34,8
+    EDITTEXT        IDC_EDT_PASSWORD,51,50,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,51,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,74,50,14
+END
+
+IDD_WARE DIALOGEX 0, 0, 203, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ware"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Name",IDC_STATIC,12,14,20,8
+    EDITTEXT        IDC_EDT_NAME,63,12,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Category",IDC_STATIC,12,32,31,8
+    COMBOBOX        IDC_CMB_WARE_CAT,63,30,106,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_WARE_CAT,175,30,14,12
+    LTEXT           "&Firm",IDC_STATIC,12,50,45,8
+    COMBOBOX        IDC_CMB_FIRM,63,48,106,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_FIRM,175,48,14,12
+    LTEXT           "&Unit category",IDC_STATIC,12,68,45,8
+    COMBOBOX        IDC_CMB_UNIT_CAT,63,66,106,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_UNIT_CAT,175,66,14,12
+    DEFPUSHBUTTON   "OK",IDOK,63,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,90,50,14
+END
+
+IDD_INDENT DIALOGEX 0, 0, 182, 80
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Indent"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Client",IDC_STATIC,12,14,20,8
+    COMBOBOX        IDC_CMB_CLIENT,41,12,106,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_CLIENT,153,12,14,12
+    LTEXT           "&Deliver",IDC_STATIC,12,32,23,8
+    CONTROL         "",IDC_DATE_DELIVER,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_SHORTDATECENTURYFORMAT | WS_TABSTOP,41,30,106,12
+    DEFPUSHBUTTON   "OK",IDOK,41,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,97,54,50,14
+END
+
+IDD_UNIT DIALOGEX 0, 0, 190, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Unit"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Name",IDC_STATIC,12,14,20,8
+    EDITTEXT        IDC_EDT_NAME,49,12,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Category",IDC_STATIC,12,32,31,8
+    COMBOBOX        IDC_CMB_CAT,49,30,106,71,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_CAT,162,30,14,12
+    LTEXT           "&Ratio",IDC_STATIC,12,50,18,8
+    EDITTEXT        IDC_EDT_RATIO,49,48,106,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Unit",IDC_STATIC,12,68,14,8
+    COMBOBOX        IDC_CMB_UNIT,49,66,106,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,49,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,90,50,14
+END
+
+IDD_WARE_CAT DIALOGEX 0, 0, 159, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ware Category"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Name",IDC_STATIC,12,14,20,8
+    EDITTEXT        IDC_EDT_NAME,38,12,106,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,38,36,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,94,36,50,14
+END
+
+IDD_UNIT_CAT DIALOGEX 0, 0, 169, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Unit Category"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Name",IDC_STATIC,12,14,20,8
+    EDITTEXT        IDC_EDT_NAME,49,12,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Main unit",IDC_STATIC,12,32,31,8
+    EDITTEXT        IDC_EDT_UNIT,49,30,106,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,49,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,54,50,14
+END
+
+IDD_CONNECTION DIALOGEX 0, 0, 155, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connection"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Host",IDC_STATIC,12,14,16,8
+    EDITTEXT        IDC_EDT_HOST,35,12,106,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,35,36,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,36,50,14
+END
+
+IDD_USER DIALOGEX 0, 0, 173, 114
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "User"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Login",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_LOGIN,52,12,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Password",IDC_STATIC,12,32,34,8
+    EDITTEXT        IDC_EDT_PASSWORD,52,30,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "&Confirm",IDC_STATIC,12,50,26,8
+    EDITTEXT        IDC_EDT_CONFIRM_PASSWORD,52,48,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "&Disabled",IDC_CHK_DISABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,52,66,45,10
+    DEFPUSHBUTTON   "OK",IDOK,52,88,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,108,88,50,14
+END
+
+IDD_FIRM DIALOGEX 0, 0, 159, 78
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Firm"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Name",IDC_STATIC,12,14,20,8
+    EDITTEXT        IDC_EDT_NAME,38,12,106,12,ES_AUTOHSCROLL
+    CONTROL         "&Disabled",IDC_CHK_DISABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,38,30,45,10
+    DEFPUSHBUTTON   "OK",IDOK,38,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,94,52,50,14
+END
+
+IDD_CLIENT DIALOGEX 0, 0, 159, 78
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Client"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Name",IDC_STATIC,12,14,20,8
+    EDITTEXT        IDC_EDT_NAME,38,12,106,12,ES_AUTOHSCROLL
+    CONTROL         "&Disabled",IDC_CHK_DISABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,38,30,45,10
+    DEFPUSHBUTTON   "OK",IDOK,38,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,94,52,50,14
+END
+
+IDD_CONTACT DIALOGEX 0, 0, 175, 188
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Contact Info"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&First name",IDC_STATIC,12,14,36,8
+    EDITTEXT        IDC_EDT_FIRST_NAME,54,12,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Last name",IDC_STATIC,12,32,36,8
+    EDITTEXT        IDC_EDT_LAST_NAME,54,30,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Phone",IDC_STATIC,12,56,22,8
+    EDITTEXT        IDC_EDT_PHONE,54,54,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Mobile",IDC_STATIC,12,74,23,8
+    EDITTEXT        IDC_EDT_MOBILE,54,72,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Address",IDC_STATIC,12,92,28,8
+    EDITTEXT        IDC_EDT_ADDRESS,54,90,106,12,ES_AUTOHSCROLL
+    LTEXT           "&Comment",IDC_STATIC,12,116,33,8
+    EDITTEXT        IDC_EDT_COMMENT,54,114,106,36,ES_MULTILINE | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,54,162,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,110,162,50,14
+END
+
+IDD_PASSWORD DIALOGEX 0, 0, 173, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&User",IDC_STATIC,12,14,16,8
+    COMBOBOX        IDC_CMB_USER,52,12,106,36,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Password",IDC_STATIC,12,32,34,8
+    EDITTEXT        IDC_EDT_PASSWORD,52,30,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "&Confirm",IDC_STATIC,12,50,26,8
+    EDITTEXT        IDC_EDT_CONFIRM_PASSWORD,52,48,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,52,72,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,108,72,50,14
+END
+
+IDD_PERMIT_EASY DIALOGEX 0, 0, 195, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Permit"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&User",IDC_STATIC,12,14,16,8
+    COMBOBOX        IDC_CMB_USER,35,12,146,65,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Roles",IDC_STATIC,13,30,20,8
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,12,41,169,90
+    PUSHBUTTON      "&Advanced",IDC_BTN_ADVANCED,12,137,50,14
+    DEFPUSHBUTTON   "OK",IDOK,74,137,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,137,50,14
+END
+
+IDD_PRICE DIALOGEX 0, 0, 165, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Price"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Ware",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_WARE,44,12,106,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Unit",IDC_STATIC,12,32,14,8
+    COMBOBOX        IDC_CMB_UNIT,44,30,106,67,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Spend",IDC_STATIC,12,50,22,8
+    EDITTEXT        IDC_EDT_SPEND,44,48,106,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Append",IDC_STATIC,12,68,26,8
+    EDITTEXT        IDC_EDT_APPEND,44,66,106,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Append is p&ercent",IDC_CHK_PERCENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,84,76,10
+    DEFPUSHBUTTON   "OK",IDOK,44,106,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,106,50,14
+END
+
+IDD_SELL DIALOGEX 0, 0, 187, 208
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sell"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Ware",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_WARE,45,12,106,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BTN_WARE,159,12,14,12
+    LTEXT           "&Amount",IDC_STATIC,12,38,27,8
+    EDITTEXT        IDC_EDT_AMOUNT,45,36,106,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Unit",IDC_STATIC,12,56,14,8
+    COMBOBOX        IDC_CMB_UNIT,45,54,106,67,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Price",IDC_STATIC,12,80,18,8
+    EDITTEXT        IDC_EDT_PRICE,45,78,106,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BTN_PRICE,159,78,14,12
+    LTEXT           "&Total",IDC_STATIC,12,98,17,8
+    EDITTEXT        IDC_EDT_TOTAL,45,96,106,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "&Calc amount",IDC_CHK_CALC_AMOUNT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,120,58,10
+    CONTROL         "&Free price",IDC_CHK_FREE_PRICE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,136,49,10
+    LTEXT           "&Debt",IDC_STATIC,12,160,16,8
+    EDITTEXT        IDC_EDT_DEBT,45,158,106,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,45,182,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,182,50,14
+END
+
+IDD_BUY DIALOGEX 0, 0, 185, 192
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Buy"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Ware",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_WARE,45,12,106,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BTN_WARE,157,12,14,12
+    LTEXT           "&Amount",IDC_STATIC,12,38,27,8
+    EDITTEXT        IDC_EDT_AMOUNT,45,36,106,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Unit",IDC_STATIC,12,56,14,8
+    COMBOBOX        IDC_CMB_UNIT,45,54,106,67,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Price",IDC_STATIC,12,80,18,8
+    EDITTEXT        IDC_EDT_PRICE,45,78,106,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BTN_PRICE,157,78,14,12
+    LTEXT           "&Total",IDC_STATIC,12,98,17,8
+    EDITTEXT        IDC_EDT_TOTAL,45,96,106,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "&Calc amount",IDC_CHK_CALC_AMOUNT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,120,58,10
+    LTEXT           "&Debt",IDC_STATIC,12,144,16,8
+    EDITTEXT        IDC_EDT_DEBT,45,142,106,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,45,166,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,166,50,14
+END
+
+IDD_MY_PASSWORD DIALOGEX 0, 0, 199, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "My Password"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Old password",IDC_STATIC,12,14,46,8
+    EDITTEXT        IDC_EDT_OLD_PASSWORD,78,12,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "&New password",IDC_STATIC,12,32,49,8
+    EDITTEXT        IDC_EDT_PASSWORD,78,30,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "&Confirm password",IDC_STATIC,12,50,60,8
+    EDITTEXT        IDC_EDT_CONFIRM_PASSWORD,78,48,106,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,78,72,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,134,72,50,14
+END
+
+IDD_PERMIT_ADVANCED DIALOGEX 0, 0, 195, 190
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Permit - Advanced"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&User",IDC_STATIC,12,14,16,8
+    COMBOBOX        IDC_CMB_USER,35,12,146,98,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Permits",IDC_STATIC,12,30,27,8
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,12,41,169,117
+    DEFPUSHBUTTON   "OK",IDOK,74,164,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,164,50,14
+END
+
+IDD_DEBT DIALOGEX 0, 0, 451, 221
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Debts"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Check the which was returned back and press Apply or OK button",IDC_STATIC,12,12,219,8
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,12,23,425,166
+    PUSHBUTTON      "&Apply",IDC_BTN_APPLY,268,195,50,14
+    DEFPUSHBUTTON   "OK",IDOK,330,195,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,387,195,50,14
+END
+
+IDD_RETURN DIALOGEX 0, 0, 399, 212
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Return"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Ware",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_WARE,37,12,138,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&List",IDC_BTN_LIST,125,30,50,14
+    GROUPBOX        "Date interval",IDC_STATIC,193,12,192,63
+    LTEXT           "&From",IDC_STATIC,205,32,18,8
+    CONTROL         "",IDC_DATE_FROM,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_SHORTDATECENTURYFORMAT | WS_TABSTOP,229,30,78,12
+    CONTROL         "",IDC_TIME_FROM,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,313,30,60,12
+    LTEXT           "&To",IDC_STATIC,205,50,9,8
+    CONTROL         "",IDC_DATE_TO,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_SHORTDATECENTURYFORMAT | WS_TABSTOP,229,48,78,12
+    CONTROL         "",IDC_TIME_TO,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,313,48,60,12
+    LTEXT           "&Check the which will return back and press Apply or OK button",IDC_STATIC,12,81,208,8
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,12,92,373,88
+    PUSHBUTTON      "&Apply",IDC_BTN_APPLY,217,186,50,14
+    DEFPUSHBUTTON   "OK",IDOK,279,186,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,335,186,50,14
+END
+
+IDD_REPORT DIALOGEX 0, 0, 370, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Report"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Reports",IDC_STATIC,12,12,27,8
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,12,22,140,157
+    RTEXT           "Double click or select and Enter",IDC_STC_INFO,45,180,107,8
+    GROUPBOX        "Parameters",IDC_STC_FORM,164,12,192,150
+    DEFPUSHBUTTON   "Create",IDOK,250,174,50,14
+    PUSHBUTTON      "Close",IDCANCEL,306,174,50,14
+END
+
+IDD_CHOOSE_WARE DIALOGEX 0, 0, 227, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Ware"
+FONT 10, "Arial", 400, 0, 0xCC
+BEGIN
+    LTEXT           "&Ware",IDC_STATIC,12,14,19,8
+    EDITTEXT        IDC_EDT_WARE,41,12,172,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,12,30,201,140
+    DEFPUSHBUTTON   "OK",IDOK,107,176,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,163,176,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAIN ACCELERATORS 
+BEGIN
+    "D",            ID_DATA_DELETE,         VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_DATA_DELETE,         VIRTKEY, NOINVERT
+    "E",            ID_DATA_EDIT,           VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_DATA_EDIT,           VIRTKEY, NOINVERT
+    "F",            ID_DATA_FILL,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_DATA_NEW,            VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_DATA_NEW,            VIRTKEY, NOINVERT
+    "R",            ID_DATA_PRICE,          VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_DATA_REPORT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_DATA_STOP_FILL,      VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_DATA_SUBMIT,         VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_DATA_VIEW,           VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_VIEW_RELOAD,         VIRTKEY, NOINVERT
+    "K",            ID_DELETE_TEMP_FILE,    VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAIN                ICON                    "res\\app.ico"
+IDI_ABOUT_REG           ICON                    "res\\imagelist\\reg\\about.ico"
+IDI_ABOUT_DIS           ICON                    "res\\imagelist\\dis\\about.ico"
+IDI_ABOUT_HOT           ICON                    "res\\imagelist\\hot\\about.ico"
+IDI_WARE_REG            ICON                    "res\\imagelist\\reg\\ware.ico"
+IDI_WARE_DIS            ICON                    "res\\imagelist\\dis\\ware.ico"
+IDI_WARE_HOT            ICON                    "res\\imagelist\\hot\\ware.ico"
+IDI_UNIT_REG            ICON                    "res\\imagelist\\reg\\unit.ico"
+IDI_UNIT_DIS            ICON                    "res\\imagelist\\dis\\unit.ico"
+IDI_UNIT_HOT            ICON                    "res\\imagelist\\hot\\unit.ico"
+IDI_USER_REG            ICON                    "res\\imagelist\\reg\\user.ico"
+IDI_USER_DIS            ICON                    "res\\imagelist\\dis\\user.ico"
+IDI_USER_HOT            ICON                    "res\\imagelist\\hot\\user.ico"
+IDI_NEW_REG             ICON                    "res\\imagelist\\reg\\new.ico"
+IDI_NEW_DIS             ICON                    "res\\imagelist\\dis\\new.ico"
+IDI_NEW_HOT             ICON                    "res\\imagelist\\hot\\new.ico"
+IDI_EDIT_REG            ICON                    "res\\imagelist\\reg\\edit.ico"
+IDI_EDIT_DIS            ICON                    "res\\imagelist\\dis\\edit.ico"
+IDI_EDIT_HOT            ICON                    "res\\imagelist\\hot\\edit.ico"
+IDI_DELETE_REG          ICON                    "res\\imagelist\\reg\\delete.ico"
+IDI_DELETE_DIS          ICON                    "res\\imagelist\\dis\\delete.ico"
+IDI_DELETE_HOT          ICON                    "res\\imagelist\\hot\\delete.ico"
+IDI_PASSWORD_REG        ICON                    "res\\imagelist\\reg\\password.ico"
+IDI_PASSWORD_DIS        ICON                    "res\\imagelist\\dis\\password.ico"
+IDI_PASSWORD_HOT        ICON                    "res\\imagelist\\hot\\password.ico"
+IDI_PERMIT_REG          ICON                    "res\\imagelist\\reg\\permit.ico"
+IDI_PERMIT_DIS          ICON                    "res\\imagelist\\dis\\permit.ico"
+IDI_PERMIT_HOT          ICON                    "res\\imagelist\\hot\\permit.ico"
+IDI_RELOAD_REG          ICON                    "res\\imagelist\\reg\\reload.ico"
+IDI_RELOAD_DIS          ICON                    "res\\imagelist\\dis\\reload.ico"
+IDI_RELOAD_HOT          ICON                    "res\\imagelist\\hot\\reload.ico"
+IDI_SELL_REG            ICON                    "res\\imagelist\\reg\\sell.ico"
+IDI_SELL_DIS            ICON                    "res\\imagelist\\dis\\sell.ico"
+IDI_SELL_HOT            ICON                    "res\\imagelist\\hot\\sell.ico"
+IDI_BUY_REG             ICON                    "res\\imagelist\\reg\\buy.ico"
+IDI_BUY_DIS             ICON                    "res\\imagelist\\dis\\buy.ico"
+IDI_BUY_HOT             ICON                    "res\\imagelist\\hot\\buy.ico"
+IDI_PRICE_REG           ICON                    "res\\imagelist\\reg\\price.ico"
+IDI_PRICE_DIS           ICON                    "res\\imagelist\\dis\\price.ico"
+IDI_PRICE_HOT           ICON                    "res\\imagelist\\hot\\price.ico"
+IDI_SUBMIT_REG          ICON                    "res\\imagelist\\reg\\submit.ico"
+IDI_SUBMIT_DIS          ICON                    "res\\imagelist\\dis\\submit.ico"
+IDI_SUBMIT_HOT          ICON                    "res\\imagelist\\hot\\submit.ico"
+IDI_CLIENT_REG          ICON                    "res\\imagelist\\reg\\client.ico"
+IDI_CLIENT_DIS          ICON                    "res\\imagelist\\dis\\client.ico"
+IDI_CLIENT_HOT          ICON                    "res\\imagelist\\hot\\client.ico"
+IDI_FIRM_REG            ICON                    "res\\imagelist\\reg\\firm.ico"
+IDI_FIRM_DIS            ICON                    "res\\imagelist\\dis\\firm.ico"
+IDI_FIRM_HOT            ICON                    "res\\imagelist\\hot\\firm.ico"
+IDI_INDENT_REG          ICON                    "res\\imagelist\\reg\\indent.ico"
+IDI_INDENT_DIS          ICON                    "res\\imagelist\\dis\\indent.ico"
+IDI_INDENT_HOT          ICON                    "res\\imagelist\\hot\\indent.ico"
+IDI_CONTACT_REG         ICON                    "res\\imagelist\\reg\\contact.ico"
+IDI_CONTACT_DIS         ICON                    "res\\imagelist\\dis\\contact.ico"
+IDI_CONTACT_HOT         ICON                    "res\\imagelist\\hot\\contact.ico"
+IDI_FILL_START_REG      ICON                    "res\\imagelist\\reg\\fill_start.ico"
+IDI_FILL_START_DIS      ICON                    "res\\imagelist\\dis\\fill_start.ico"
+IDI_FILL_START_HOT      ICON                    "res\\imagelist\\hot\\fill_start.ico"
+IDI_FILL_STOP_REG       ICON                    "res\\imagelist\\reg\\fill_stop.ico"
+IDI_FILL_STOP_DIS       ICON                    "res\\imagelist\\dis\\fill_stop.ico"
+IDI_FILL_STOP_HOT       ICON                    "res\\imagelist\\hot\\fill_stop.ico"
+IDI_VIEW_REG            ICON                    "res\\imagelist\\reg\\view.ico"
+IDI_VIEW_DIS            ICON                    "res\\imagelist\\dis\\view.ico"
+IDI_VIEW_HOT            ICON                    "res\\imagelist\\hot\\view.ico"
+IDI_REPORT_REG          ICON                    "res\\imagelist\\reg\\report.ico"
+IDI_REPORT_DIS          ICON                    "res\\imagelist\\dis\\report.ico"
+IDI_REPORT_HOT          ICON                    "res\\imagelist\\hot\\report.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Tolken"
+            VALUE "FileDescription", "Sawda Application"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "sawda.exe"
+            VALUE "LegalCopyright", "© 2012.  By Tolken Ahmetolla."
+            VALUE "OriginalFilename", "sawda.exe"
+            VALUE "ProductName", "Sawda"
+            VALUE "ProductVersion", "2.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAIN TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_WARE TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_PRICE
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_WARE_CAT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_UNIT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_UNIT_CAT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_BUY TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_SUBMIT
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_FIRM TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_CONTACT
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_CLIENT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_CONTACT
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_SELL TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_STOP_FILL
+    BUTTON      ID_DATA_VIEW
+    BUTTON      ID_DATA_SUBMIT
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_INDENT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_FILL
+    BUTTON      ID_DATA_VIEW
+    BUTTON      ID_DATA_SUBMIT
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_REPORT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_VIEW
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+IDR_USER TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_DATA_NEW
+    BUTTON      ID_DATA_EDIT
+    BUTTON      ID_DATA_DELETE
+    SEPARATOR
+    BUTTON      ID_DATA_CONTACT
+    SEPARATOR
+    BUTTON      ID_DATA_PASSWORD
+    BUTTON      ID_DATA_PERMIT
+    SEPARATOR
+    BUTTON      ID_VIEW_RELOAD
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 187
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 157
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_RUN_AS, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 157
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 88
+        HORZGUIDE, 32
+    END
+
+    IDD_WARE, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 189
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_INDENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 168
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_UNIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 176
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_WARE_CAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 145
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_UNIT_CAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 155
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_CONNECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 141
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_USER, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 159
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_FIRM, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 145
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_CLIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 145
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_CONTACT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 161
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 159
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PERMIT_EASY, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 181
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_PRICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 151
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_SELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 173
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_BUY, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 171
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_MY_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 185
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PERMIT_ADVANCED, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 181
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DEBT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 437
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_RETURN, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 385
+        VERTGUIDE, 175
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_REPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 356
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_CHOOSE_WARE, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 213
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAIN                "Start\nSawda\nSawda\n\n\n\n"
+    IDR_WARE                "Ware\nSawda\n\n\n\n\n"
+    IDR_WARE_CAT            "Ware Categories\nSawda\n\n\n\n\n"
+    IDR_UNIT                "Units\nSawda\n\n\n\n\n"
+    IDR_UNIT_CAT            "Unit Categories\nSawda\n\n\n\n\n"
+    IDR_USER                "Users\nSawda\n\n\n\n\n"
+    IDR_SELL                "Sell\nSawda\n\n\n\n\n"
+    IDR_BUY                 "Buy\nSawda\n\n\n\n\n"
+    IDR_FIRM                "Firms\nSawda\n\n\n\n\n"
+    IDR_CLIENT              "Clients\nSawda\n\n\n\n\n"
+    IDR_INDENT              "Indents\nSawda\n\n\n\n\n"
+    IDR_REPORT              "Reports\nSawda\n\n\n\n\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_NEW           "New %s"
+    IDS_TITLE_EDIT          "Edit %s"
+    IDS_TITLE_EXPORT        "Export"
+    IDS_TITLE_INVOICE       "Invoice %u"
+    IDS_TITLE_CHANGE        "Change %s"
+    IDS_TITLE_INDENT        "Indent"
+    IDS_TITLE_SELL_DEBT     "Sell Debts"
+    IDS_TITLE_BUY_DEBT      "Buy Debts"
+    IDS_TITLE_SELL_RETURN   "Sell Return"
+    IDS_TITLE_BUY_RETURN    "Buy Return"
+    IDS_TITLE_FORM          "Parameters of %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COL_MOMENT          "Moment"
+    IDS_COL_CAT             "Category"
+    IDS_COL_WARE            "Ware"
+    IDS_COL_UNIT            "Unit"
+    IDS_COL_LOGIN           "Login"
+    IDS_COL_PRICE           "Price"
+    IDS_COL_RATIO           "Ratio"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COL_CLIENT          "Client"
+    IDS_COL_OPERATOR        "Operator"
+    IDS_COL_DELIVER         "Deliver"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BAD_LOGIN           "Login information is incorrect.     "
+    IDS_BAD_TEXT            "%s is invalid.     "
+    IDS_BAD_SELECT          "%s is not selected.     "
+    IDS_BAD_CONFIRM_PASSWORD "%s is not same as.     "
+    IDS_BAD_OLD_PASSWORD    "%s is incorrect.     "
+    IDS_ERR_ON_DELETE       "Error occur during delete '%s'!     \n\n%s.     "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_NO_PERMIT       "You have no permit for this action.     "
+    IDS_ERR_EMPTY_INDENT    "Indent is empty.     \n\nPlease, fill and try again.     "
+    IDS_ERR_TOUCH_ROOT      "Can not edit root user's data!     "
+    IDS_ERR_DELETE_FOREIGN  "There are objects that releated to '%s'!     \n\nPlease, delete them and try again.     "
+    IDS_PROMPT_DELETE       "Are you sure you want to delete selected object(s)?     \n\nAttention: this action can not be rolled back!     "
+    IDS_PROMPT_SUBMIT_DEAL  "Are you sure you want to submit the lot?     \n\nAttention: this action can not be rolled back!     "
+    IDS_PROMPT_APPLY        "Are you sure you apply this?     \n\nAttention: this action can not be rolled back!     "
+    IDS_PROMPT_REUSE        "This indent already have invoice.     \n\nReuse it?     "
+    IDS_PROMPT_SUBMIT_INDENT 
+                            "Are you sure you want to submit selected indent(s)?     \n\nAttention: this action can not be rolled back!     "
+    IDS_PROMPT_CONTACT_INFO "'%s' was successfully created.     \n\nDo you want to input the contact info for it?     \n\nAttention: the contact info need for reports too.     "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONNECTION_MENU     "Connection..."
+    IDS_STATUS_PANE_NUM     "Num: %u"
+    IDS_STATUS_PANE_SUM     "Sum: %.2f T"
+    IDS_COMBOBOX_ALL        "[all]"
+    IDS_EMPTY_MESSAGE       "No data"
+    IDS_FORMAT_LOAD_DT      "%m/%d/%Y %H:%M:%S"
+    IDS_FORMAT_LOAD_D       "%m/%d/%Y"
+    IDS_FORMAT_LOAD_T       "%H:%M:%S"
+    IDS_FORMAT_CTRL_DT      "MM'/'dd'/'yyyy HH':'mm':'ss"
+    IDS_FORMAT_CTRL_D       "MM'/'dd'/'yyyy"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FORMAT_CTRL_T       "HH':'mm':'ss"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COL_NAME            "Name"
+    IDS_COL_MAIN_UNIT       "Main unit"
+    IDS_COL_AMOUNT          "Amount"
+    IDS_COL_TOTAL           "Total"
+    IDS_COL_DEBT            "Debt"
+    IDS_COL_UNIT_CAT        "Unit cat"
+    IDS_COL_DISABLED        "Disabled"
+    IDS_COL_FIRM            "Firm"
+    IDS_COL_ID              "ID"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ROLE                "[not in list]"
+    IDS_ROLE_ADMINISTRTOR   "Administrator"
+    IDS_ROLE_SALES_CLERK    "Sales Clerk"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_PERMIT_LIST_WARE     "List ware"
+    ID_PERMIT_EDIT_WARE     "Edit ware"
+    ID_PERMIT_DELETE_WARE   "Delete ware"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_PERMIT_LIST_UNIT     "List unit"
+    ID_PERMIT_EDIT_UNIT     "Edit unit"
+    ID_PERMIT_DELETE_UNIT   "Delete unit"
+    ID_PERMIT_LIST_USER     "List user"
+    ID_PERMIT_EDIT_USER     "Edit user"
+    ID_PERMIT_DELETE_USER   "Delete user"
+    ID_PERMIT_LIST_FIRM     "List firm"
+    ID_PERMIT_EDIT_FIRM     "Edit firm"
+    ID_PERMIT_DELETE_FIRM   "Delete firm"
+    ID_PERMIT_LIST_CLIENT   "List client"
+    ID_PERMIT_EDIT_CLIENT   "Edit client"
+    ID_PERMIT_DELETE_CLIENT "Delete client"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_PERMIT_REPORT        "Report"
+    ID_PERMIT_BUY           "Buy"
+    ID_PERMIT_SELL_RETURN   "Sell return"
+    ID_PERMIT_BUY_RETURN    "Buy return"
+    ID_PERMIT_INDENT        "Indent"
+    ID_PERMIT_CONTACT       "Contact"
+    ID_PERMIT_PRICE         "Price"
+    ID_PERMIT_PERMIT        "Permit"
+    ID_PERMIT_PASSWORD      "Password"
+    ID_PERMIT_SELL_DEBT     "Sell debt"
+    ID_PERMIT_BUY_DEBT      "Buy debt"
+    ID_PERMIT_SELL          "Sell"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_RELOAD          "Reload active view\nReload"
+    ID_DATA_MY_PASSWORD     "Change password for current user"
+    ID_DATA_NEW             "Create a new object\nNew"
+    ID_DATA_EDIT            "Edit the selected object\nEdit"
+    ID_DATA_DELETE          "Delete the selected object(s)\nDelete"
+    ID_DATA_PRICE           "Change price for selected ware\nPrice"
+    ID_DATA_PASSWORD        "Change password for selected user\nPassword"
+    ID_DATA_PERMIT          "Change permit for selected user\nPermit"
+    ID_DATA_SUBMIT          "Submit this lot, and open a new lot\nSubmit"
+    ID_DATA_SELL_DEBT       "Manage sell debts"
+    ID_DATA_BUY_DEBT        "Manage buy debts"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DATA_CONTACT         "Display contact information\nContact Info"
+    ID_DATA_FILL            "Fill ware into the selected indent\nFill"
+    ID_DATA_STOP_FILL       "Stop fill indent and return to regular sell\nStop Fill"
+    ID_DATA_SELL_RETURN     "Return the ware that sold"
+    ID_DATA_BUY_RETURN      "Return the ware that bought"
+    ID_DATA_VIEW            "View the selected invoice\nView"
+    ID_DATA_EXPORT          "Export the selected invoice\nExport"
+    ID_DATA_REPORT          "Create and display selected report"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Sawda"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    IDOK                    "OK"
+    IDCANCEL                "Cancel"
+    IDABORT                 "Abort"
+    IDRETRY                 "Retry"
+    IDIGNORE                "Ignore"
+    IDYES                   "Yes"
+    IDNO                    "No"
+    10                      "Try Again"
+    11                      "Continue"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "app.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

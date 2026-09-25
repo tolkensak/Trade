@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12210.168 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sawda", "app.vcxproj", "{623AA946-D199-4D27-8885-46F259E6BE20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kaz", "kaz.vcxproj", "{02029A09-D53D-43A9-9715-3C7C97B1D267}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rus", "rus.vcxproj", "{8736FD37-57DF-48C9-A04C-3123ACDE954C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		dbg|Win32 = dbg|Win32
+		opt|Win32 = opt|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{623AA946-D199-4D27-8885-46F259E6BE20}.dbg|Win32.ActiveCfg = dbg|Win32
+		{623AA946-D199-4D27-8885-46F259E6BE20}.dbg|Win32.Build.0 = dbg|Win32
+		{623AA946-D199-4D27-8885-46F259E6BE20}.opt|Win32.ActiveCfg = opt|Win32
+		{623AA946-D199-4D27-8885-46F259E6BE20}.opt|Win32.Build.0 = opt|Win32
+		{02029A09-D53D-43A9-9715-3C7C97B1D267}.dbg|Win32.ActiveCfg = dbg|Win32
+		{02029A09-D53D-43A9-9715-3C7C97B1D267}.dbg|Win32.Build.0 = dbg|Win32
+		{02029A09-D53D-43A9-9715-3C7C97B1D267}.opt|Win32.ActiveCfg = opt|Win32
+		{02029A09-D53D-43A9-9715-3C7C97B1D267}.opt|Win32.Build.0 = opt|Win32
+		{8736FD37-57DF-48C9-A04C-3123ACDE954C}.dbg|Win32.ActiveCfg = dbg|Win32
+		{8736FD37-57DF-48C9-A04C-3123ACDE954C}.dbg|Win32.Build.0 = dbg|Win32
+		{8736FD37-57DF-48C9-A04C-3123ACDE954C}.opt|Win32.ActiveCfg = opt|Win32
+		{8736FD37-57DF-48C9-A04C-3123ACDE954C}.opt|Win32.Build.0 = opt|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B7C903E-514C-435D-B141-D87D14BE2A66}
+	EndGlobalSection
+EndGlobal
