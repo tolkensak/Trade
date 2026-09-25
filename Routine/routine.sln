@@ -1,0 +1,165 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{897660A2-34E2-48EB-ABA1-3450FE273BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temporary", "Temporary", "{B9F26CCF-7BE3-4941-9939-DAA84F64E89F}"
+	ProjectSection(SolutionItems) = preProject
+		rp_remain!!!.sql = rp_remain!!!.sql
+		session_sql_mode.sql = session_sql_mode.sql
+		sp__erase.sql = sp__erase.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{29C1375C-D0B0-4A64-8D2D-E061CDAB5757}"
+	ProjectSection(SolutionItems) = preProject
+		fn_crypt_dec.sql = fn_crypt_dec.sql
+		fn_crypt_enc.sql = fn_crypt_enc.sql
+		fn_crypt_key.sql = fn_crypt_key.sql
+		fn_mtos.sql = fn_mtos.sql
+		fn_new_buy_lot.sql = fn_new_buy_lot.sql
+		fn_new_contact.sql = fn_new_contact.sql
+		fn_new_sell_lot.sql = fn_new_sell_lot.sql
+		fn_ntos.sql = fn_ntos.sql
+		fn_ntos_p1.sql = fn_ntos_p1.sql
+		fn_ntos_p2.sql = fn_ntos_p2.sql
+		fn_ntos_p3.sql = fn_ntos_p3.sql
+		fn_ware_price.sql = fn_ware_price.sql
+		fn_ware_spend.sql = fn_ware_spend.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stored Procedures", "Stored Procedures", "{85CC620D-2583-4CB7-8757-9C576AEBC645}"
+	ProjectSection(SolutionItems) = preProject
+		sp_buy_debt_list.sql = sp_buy_debt_list.sql
+		sp_buy_lot_edit.sql = sp_buy_lot_edit.sql
+		sp_buy_lot_list.sql = sp_buy_lot_list.sql
+		sp_buy_lot_present.sql = sp_buy_lot_present.sql
+		sp_buy_lot_reload.sql = sp_buy_lot_reload.sql
+		sp_buy_lot_submit.sql = sp_buy_lot_submit.sql
+		sp_buy_lot_sum_total.sql = sp_buy_lot_sum_total.sql
+		sp_buy_price.sql = sp_buy_price.sql
+		sp_buy_return_list.sql = sp_buy_return_list.sql
+		sp_client_edit.sql = sp_client_edit.sql
+		sp_client_list.sql = sp_client_list.sql
+		sp_contact_edit.sql = sp_contact_edit.sql
+		sp_firm_delete.sql = sp_firm_delete.sql
+		sp_firm_edit.sql = sp_firm_edit.sql
+		sp_firm_list.sql = sp_firm_list.sql
+		sp_indent_delete.sql = sp_indent_delete.sql
+		sp_indent_edit.sql = sp_indent_edit.sql
+		sp_indent_list.sql = sp_indent_list.sql
+		sp_indent_submit.sql = sp_indent_submit.sql
+		sp_login.sql = sp_login.sql
+		sp_param_list.sql = sp_param_list.sql
+		sp_permit_list.sql = sp_permit_list.sql
+		sp_permit_reload.sql = sp_permit_reload.sql
+		sp_price_reload.sql = sp_price_reload.sql
+		sp_report_info.sql = sp_report_info.sql
+		sp_report_list.sql = sp_report_list.sql
+		sp_return_ware.sql = sp_return_ware.sql
+		sp_role_list.sql = sp_role_list.sql
+		sp_run_as.sql = sp_run_as.sql
+		sp_sell_debt_list.sql = sp_sell_debt_list.sql
+		sp_sell_lot_edit.sql = sp_sell_lot_edit.sql
+		sp_sell_lot_list.sql = sp_sell_lot_list.sql
+		sp_sell_lot_present.sql = sp_sell_lot_present.sql
+		sp_sell_lot_reload.sql = sp_sell_lot_reload.sql
+		sp_sell_lot_submit.sql = sp_sell_lot_submit.sql
+		sp_sell_lot_sum_total.sql = sp_sell_lot_sum_total.sql
+		sp_sell_price.sql = sp_sell_price.sql
+		sp_sell_return_list.sql = sp_sell_return_list.sql
+		sp_unit_cat_delete.sql = sp_unit_cat_delete.sql
+		sp_unit_cat_edit.sql = sp_unit_cat_edit.sql
+		sp_unit_cat_insert.sql = sp_unit_cat_insert.sql
+		sp_unit_cat_list.sql = sp_unit_cat_list.sql
+		sp_unit_cat_update.sql = sp_unit_cat_update.sql
+		sp_unit_edit.sql = sp_unit_edit.sql
+		sp_unit_list.sql = sp_unit_list.sql
+		sp_unit_ratio.sql = sp_unit_ratio.sql
+		sp_user_edit.sql = sp_user_edit.sql
+		sp_user_list.sql = sp_user_list.sql
+		sp_ware_cat_delete.sql = sp_ware_cat_delete.sql
+		sp_ware_cat_edit.sql = sp_ware_cat_edit.sql
+		sp_ware_cat_list.sql = sp_ware_cat_list.sql
+		sp_ware_edit.sql = sp_ware_edit.sql
+		sp_ware_list.sql = sp_ware_list.sql
+		sp_ware_search.sql = sp_ware_search.sql
+		sp_ware_search2.sql = sp_ware_search2.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Triggers", "Triggers", "{0A6EB713-4977-418B-9AC8-BAAD5A6D56D8}"
+	ProjectSection(SolutionItems) = preProject
+		tr_buy_lot_bi.sql = tr_buy_lot_bi.sql
+		tr_client_bi.sql = tr_client_bi.sql
+		tr_firm_bi.sql = tr_firm_bi.sql
+		tr_indent_bi.sql = tr_indent_bi.sql
+		tr_price_ai.sql = tr_price_ai.sql
+		tr_sell_lot_bi.sql = tr_sell_lot_bi.sql
+		tr_user_ai.sql = tr_user_ai.sql
+		tr_user_bd.sql = tr_user_bd.sql
+		tr_user_bi.sql = tr_user_bi.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{5F28CCE2-BC24-4FB9-A998-0420E7392510}"
+	ProjectSection(SolutionItems) = preProject
+		fn_report_format.sql = fn_report_format.sql
+		rp_invoice.sql = rp_invoice.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{7FD2E320-22F6-44B1-BB56-A4745F65D319}"
+	ProjectSection(SolutionItems) = preProject
+		fn__permit_flag.sql = fn__permit_flag.sql
+		fn__permit_name.sql = fn__permit_name.sql
+		sp__permits.sql = sp__permits.sql
+		sp__price.sql = sp__price.sql
+		sp__prices.sql = sp__prices.sql
+		sp__triggers.sql = sp__triggers.sql
+		sp__users.sql = sp__users.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temporary Table", "Temporary Table", "{3ED8B605-9C5D-4C84-B607-779668D03E5B}"
+	ProjectSection(SolutionItems) = preProject
+		rp_1tt.sql = rp_1tt.sql
+		rp_2tt.sql = rp_2tt.sql
+		rp_3tt.sql = rp_3tt.sql
+		rp_4tt.sql = rp_4tt.sql
+		rp_5tt.sql = rp_5tt.sql
+		rp_report_begin_tt.sql = rp_report_begin_tt.sql
+		rp_report_end_tt.sql = rp_report_end_tt.sql
+		rp_report_form1tt.sql = rp_report_form1tt.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "One String", "One String", "{78FF341E-28A2-4C0D-8530-E85EA94F0BBC}"
+	ProjectSection(SolutionItems) = preProject
+		rp_1os.sql = rp_1os.sql
+		rp_2os.sql = rp_2os.sql
+		rp_3os.sql = rp_3os.sql
+		rp_4os.sql = rp_4os.sql
+		rp_5os.sql = rp_5os.sql
+		rp_report_begin_os.sql = rp_report_begin_os.sql
+		rp_report_end_os.sql = rp_report_end_os.sql
+		rp_report_form1os.sql = rp_report_form1os.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{994761FA-AAF9-4D13-B0D2-13F8121FCA42}"
+	ProjectSection(SolutionItems) = preProject
+		rp_detailed.sql = rp_detailed.sql
+		rp_rank_amount.sql = rp_rank_amount.sql
+		rp_rank_times.sql = rp_rank_times.sql
+		rp_remain.sql = rp_remain.sql
+		rp_summary.sql = rp_summary.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29C1375C-D0B0-4A64-8D2D-E061CDAB5757} = {897660A2-34E2-48EB-ABA1-3450FE273BCF}
+		{85CC620D-2583-4CB7-8757-9C576AEBC645} = {897660A2-34E2-48EB-ABA1-3450FE273BCF}
+		{0A6EB713-4977-418B-9AC8-BAAD5A6D56D8} = {897660A2-34E2-48EB-ABA1-3450FE273BCF}
+		{5F28CCE2-BC24-4FB9-A998-0420E7392510} = {897660A2-34E2-48EB-ABA1-3450FE273BCF}
+		{3ED8B605-9C5D-4C84-B607-779668D03E5B} = {5F28CCE2-BC24-4FB9-A998-0420E7392510}
+		{78FF341E-28A2-4C0D-8530-E85EA94F0BBC} = {5F28CCE2-BC24-4FB9-A998-0420E7392510}
+		{994761FA-AAF9-4D13-B0D2-13F8121FCA42} = {5F28CCE2-BC24-4FB9-A998-0420E7392510}
+	EndGlobalSection
+EndGlobal
