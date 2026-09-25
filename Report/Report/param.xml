@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<params>
+	<lang id="1033">
+		<param id="1">&amp;From</param>
+		<param id="2">&amp;To</param>
+		<param id="3">&amp;Category</param>
+		<param id="4">Fir&amp;m</param>
+		<param id="5">&amp;Ware</param>
+	</lang>
+	<lang id="1087">
+		<param id="1">&amp;Бас</param>
+		<param id="2">&amp;Аяқ</param>
+		<param id="3">&amp;Топ</param>
+		<param id="4">&amp;Фирма</param>
+		<param id="5">&amp;Зат</param>
+	</lang>
+	<lang id="1049">
+		<param id="1">&amp;Из</param>
+		<param id="2">&amp;До</param>
+		<param id="3">&amp;Категория</param>
+		<param id="4">&amp;Фирма</param>
+		<param id="5">&amp;Товар</param>
+	</lang>
+</params>

@@ -1,0 +1,35 @@
+@media screen {
+	body {
+		background-color: #808080;
+	}
+	.board {
+		border: solid 1px #dddddd;
+		background-color: #ffffff;
+		margin: 20px;
+		width: 700px;
+	}
+}
+.info th {
+	text-align: left;
+	white-space: nowrap;
+}
+.sells {
+	width: 100%;
+}
+.sells th {
+	border: solid 1px #a9a9a9;
+	text-align: center;
+}
+.sells td {
+	border: solid 1px #a9a9a9;
+}
+.hand-write {
+	font-family: Times New Roman;
+	font-size: 14pt;
+	font-style: italic;
+}
+.note {
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}

@@ -1,0 +1,80 @@
+* {
+	font-family: arial;
+	font-size: 12pt;
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+@media screen {
+	.board { padding: 40px 40px 120px 40px; }
+}
+@media print {
+	.board { width: 100%; }
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 40px;
+}
+th,
+td {
+	font-weight: normal;
+	vertical-align: middle;
+	padding: 3px 7px 3px 7px;
+}
+th {
+	text-align: center;
+}
+td {
+	text-align: left;
+}
+div {
+	margin-bottom: 10px;
+}
+div[class*="heading"] {
+	font-weight: bold;
+	white-space: nowrap;
+	letter-spacing: 1px;
+}
+.heading1 {
+	font-size: 180%;
+	text-align: center;
+	margin: 40px 0 40px 0;
+}
+.heading2 {
+	font-size: 110%;
+	text-align: left;
+	margin: 40px 0 10px 0;
+	/*border-bottom: solid 1px #a0a0a0;
+	padding-bottom: 7px;*/
+}
+.question th {
+	text-align: right;
+}
+.answer {
+	border-left: solid 1px #e0e0e0;
+	border-bottom: solid 1px #e0e0e0;
+	width: 100%;
+}
+.answer th,
+.answer td {
+	border-right: solid 1px #e0e0e0;
+}
+.answer th {
+	color: #ffffff;
+	background-color: #777777;
+}
+.answer .true {
+	background-color: #efefef;
+}
+.answer .false {
+}
+.ndx { text-align: center; width: 20px; }
+.int { text-align: center; }
+.txt { text-align: left; }
+.mny { text-align: right; }
+.flt { text-align: right; }
+.sym { text-align: center; }
+.dtm { text-align: center; }

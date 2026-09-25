@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<texts>
+	<lang id="1033">
+		<text id="1">Invoice</text>
+		<text id="2">Талапкер</text>
+		<text id="3">Ұсынушы</text>
+		<text id="4">Сауда орны</text>
+		<text id="5">Төлем тәсілі</text>
+		<text id="6">Нақ ақша</text>
+		<text id="7">Жеткізу күні</text>
+		<text id="8">Тауар саны</text>
+		<text id="9">тауар</text>
+		<text id="10">Жиын ақша</text>
+		<text id="11">Өнімнің саны мен сапасына пікірім жоқ.</text>
+	</lang>
+	<lang id="1087">
+		<text id="1">Тауар Талон</text>
+		<text id="2">Талапкер</text>
+		<text id="3">Ұсынушы</text>
+		<text id="4">Сауда орны</text>
+		<text id="5">Төлем тәсілі</text>
+		<text id="6">Нақ ақша</text>
+		<text id="7">Жеткізу күні</text>
+		<text id="8">Тауар саны</text>
+		<text id="9">тауар</text>
+		<text id="10">Жиын ақша</text>
+		<text id="11">Өнімнің саны мен сапасына пікірім жоқ.</text>
+	</lang>
+	<lang id="1049">
+		<text id="1">Накладная</text>
+		<text id="2">Талапкер</text>
+		<text id="3">Ұсынушы</text>
+		<text id="4">Сауда орны</text>
+		<text id="5">Төлем тәсілі</text>
+		<text id="6">Нақ ақша</text>
+		<text id="7">Жеткізу күні</text>
+		<text id="8">Тауар саны</text>
+		<text id="9">тауар</text>
+		<text id="10">Жиын ақша</text>
+		<text id="11">Өнімнің саны мен сапасына пікірім жоқ.</text>
+	</lang>
+</texts>

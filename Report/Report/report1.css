@@ -1,0 +1,13 @@
+.answer {
+	border: none;
+	width: auto;
+}
+.answer th,
+.answer td {
+	border: none;
+	text-align: right;
+}
+.answer th {
+	color: inherit;
+	background-color: inherit;
+}

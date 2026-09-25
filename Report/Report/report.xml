@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<reports>
+	<lang id="1033">
+		<report id="1">Summary Report</report>
+		<report id="2">Detailed Report</report>
+		<report id="3">Remains</report>
+		<report id="4">Times Rank of Ware</report>
+		<report id="5">Amount Rank of Ware</report>
+	</lang>
+	<lang id="1087">
+		<report id="1">Жалпы Мәлмет</report>
+		<report id="2">Толық Мәлмет</report>
+		<report id="3">Қалдық</report>
+		<report id="4">Сатылу Саны</report>
+		<report id="5">Сатылу Шамасы</report>
+	</lang>
+	<lang id="1049">
+		<report id="1">Суммарный Отчет</report>
+		<report id="2">Подробный Отчет</report>
+		<report id="3">Остаток</report>
+		<report id="4">Ранг Товаров по Ряд</report>
+		<report id="5">Ранг Товаров по Количество</report>
+	</lang>
+</reports>

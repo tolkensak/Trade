@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58E14D5F-54EC-45D3-B97F-8E1431FBF180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{26ADF09C-C8AC-4681-B5C4-746BAC27D730}"
+	ProjectSection(SolutionItems) = preProject
+		report\invoice.xml = report\invoice.xml
+		report\param.xml = report\param.xml
+		report\report.xml = report\report.xml
+		report\text.xml = report\text.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XSL", "XSL", "{643C521E-9FDA-4D59-8FC6-A92745148C19}"
+	ProjectSection(SolutionItems) = preProject
+		report\form1.xsl = report\form1.xsl
+		report\func.xsl = report\func.xsl
+		report\invoice.xsl = report\invoice.xsl
+		report\report.xsl = report\report.xsl
+		report\report1.xsl = report\report1.xsl
+		report\report2.xsl = report\report2.xsl
+		report\report3.xsl = report\report3.xsl
+		report\report4.xsl = report\report4.xsl
+		report\report5.xsl = report\report5.xsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{D2A1F884-8D41-4D9C-B556-48F7DBBFA95D}"
+	ProjectSection(SolutionItems) = preProject
+		report\invoice.css = report\invoice.css
+		report\report.css = report\report.css
+		report\report1.css = report\report1.css
+		report\report2.css = report\report2.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26ADF09C-C8AC-4681-B5C4-746BAC27D730} = {58E14D5F-54EC-45D3-B97F-8E1431FBF180}
+		{643C521E-9FDA-4D59-8FC6-A92745148C19} = {58E14D5F-54EC-45D3-B97F-8E1431FBF180}
+		{D2A1F884-8D41-4D9C-B556-48F7DBBFA95D} = {58E14D5F-54EC-45D3-B97F-8E1431FBF180}
+	EndGlobalSection
+EndGlobal
