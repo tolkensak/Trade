@@ -1,7 +1,7 @@
-# Trade
+# <img src="icon.png" alt="Trade" width="26"> Trade
 
 An application for small shops. (Orginal name is Sawda)
 
-created in 2012
+Created in 2012 using C++, MFC and MySQL
 
-Teck stack: C++, MFC, MySQL
+**Screenshots**
