@@ -1,37 +1,93 @@
 # <img src="icon.png" alt="Trade" width="26"> Trade
 
-Application for stores (original name - Sawda). Registers all purchases, sales, products, orders, companies and clients. And generates various reports. Has user authentication function and roles for users.
+> **Store management system — purchases, sales, inventory, and reporting.**
 
-Created in 2012 using C++, MFC and MySQL
+Trade (originally *Sawda*) is a desktop application for retail stores. It manages purchases, sales, products, orders, clients, companies, and generates comprehensive reports. Includes user authentication and role-based access.
 
-**Screenshots**
+**Tech Stack:** C++, MFC, MySQL  
+**Developed:** 2012
 
-Capability:
+<br />
+
+## Features
+
+- **Purchases** — record and track inventory purchases
+- **Sales** — record sales transactions
+- **Products** — manage product catalog
+- **Orders** — customer and supplier orders
+- **Clients** — customer database
+- **Companies** — supplier and partner management
+- **Reports** — generate various business reports
+- **Units** — measurement units management
+- **Users** — user accounts with roles and permissions
+
+<br />
+
+## Screenshots
+
+### Capability
+
 ![Screenshot: Capability](screenshots/capability.png "Capability")
 
-Purchases:
+### Purchases
+
 ![Screenshot: Purchases](screenshots/purchases.png "Purchases")
 
-Sales:
+### Sales
+
 ![Screenshot: Sales](screenshots/sales.png "Sales")
 
-Products:
+### Products
+
 ![Screenshot: Products](screenshots/products.png "Products")
 
-Orders:
+### Orders
+
 ![Screenshot: Orders](screenshots/orders.png "Orders")
 
-Clients:
+### Clients
+
 ![Screenshot: Clients](screenshots/clients.png "Clients")
 
-Companies:
+### Companies
+
 ![Screenshot: Companies](screenshots/companies.png "Companies")
 
-Reports:
+### Reports
+
 ![Screenshot: Reports](screenshots/reports.png "Reports")
 
-Units:
+### Units
+
 ![Screenshot: Units](screenshots/units.png "Units")
 
-Users:
+### Users
+
 ![Screenshot: Users](screenshots/users.png "Users")
+
+<br />
+
+## Project Structure
+```
+/
+├── Trade/      — Main application source
+├── Report/     — Report generation module
+├── Routine/    — Database routines
+├── Setup/      — Installation scripts
+└── screenshots/— Application screenshots
+```
+
+<br />
+
+## Requirements
+
+- **Windows**
+- **Microsoft Visual Studio**
+- **MySQL** (database server)
+- **MFC** (included with Visual Studio)
+
+<br />
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
